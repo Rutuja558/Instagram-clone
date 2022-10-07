@@ -14,7 +14,7 @@ export const userRegister = regi_data => async dispatch => {
 export const userLogin = login_data => async dispatch => {
     try {
         dispatch({ type: USER_LOGIN_REQUEST })
-        const { data: { result } } = await axios.post(`${process.env.REACT_APP_URL}/api/auth/login`, login_data)
+        const { data: { result } } = await axios.post(`${process.env.REACT_APP_URL}/api/auth/`, login_data)
         if (!result) {
             throw new Error("Inavlid email or password")
         }
