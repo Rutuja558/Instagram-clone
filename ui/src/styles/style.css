@@ -1,0 +1,55 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+/* signup */
+.signup-para {
+    font-size: 14px;
+}
+
+/* signup */
+/* login */
+::placeholder {
+    color: #c5c1c1;
+}
+
+.theme {
+    background-color: #d15a5a5e;
+}
+
+.insta-title {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-log {
+    width: 25rem;
+    border: 0.1px solid #c5c1c1;
+}
+
+.form-control {
+    background-color: #fafafa !important;
+}
+
+.or {
+    font-size: 13px !important;
+    background-color: white;
+    position: relative;
+    bottom: 14px;
+    left: 140px;
+    padding: 0px 8px;
+}
+
+.or-border {
+    border-bottom: 1.5px solid #d2cdcd;
+    margin-top: 2rem;
+}
+
+.facebook {
+    font-size: 1.1rem;
+    color: rgb(5, 5, 96);
+}
+
+/* login */
+.suggestion {
+    font-size: 12px;
+}
