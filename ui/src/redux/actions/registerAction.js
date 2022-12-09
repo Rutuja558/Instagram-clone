@@ -18,7 +18,7 @@ export const userLogin = login_data => async dispatch => {
         if (!result) {
             throw new Error("Inavlid email or password")
         }
-        localStorage.setItem("LocalLogin", JSON.stringify(result))
+        // localStorage.setItem("LocalLogin", JSON.stringify(result))
         dispatch({ type: USER_LOGIN_SUCCESS, payload: result })
     } catch (error) {
         console.log(error);
@@ -27,6 +27,6 @@ export const userLogin = login_data => async dispatch => {
 }
 
 export const userLogout = () => async dispatch => {
-    localStorage.removeItem("localLogin")
+    // localStorage.removeItem("localLogin")
     dispatch({ type: USER_LOGOUT })
 }

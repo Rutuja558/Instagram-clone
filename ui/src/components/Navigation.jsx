@@ -48,7 +48,7 @@ export const Navigation = () => {
                     <Row className='border-bottom'>
                         <Col md={{ span: 8, offset: 2 }}>
                             <Navbar bg="white" variant="light" >
-                                <Navbar.Brand className='insta-title'>Instagram</Navbar.Brand>
+                                <Link to='/' className='navbar-brand insta-title'>Instagram</Link>
                                 <Nav className="m-auto">
                                     <Form.Control type="text" className='form-control w-100' placeholder="&#xF002; search" style={{ "fontFamily": "FontAwesome" }} value={value} onChange={e => { setValue(e.target.value); }} onClick={handleClick}></Form.Control>
                                     <div ref={ref}>

@@ -14,12 +14,12 @@ const rootReducer = combineReducers({
     followers: followReducer,
     changePassword: passwordReducer
 })
-const localStorageLogin = localStorage.getItem("LocalLogin")
-    ? JSON.parse(localStorage.getItem("LocalLogin"))
-    : null
+// const localStorageLogin = localStorage.getItem("LocalLogin")
+//     ? JSON.parse(localStorage.getItem("LocalLogin"))
+//     : null
 const initialValue = {
     register: {
-        login: { localStorageLogin }
+        // login: { localStorageLogin }
     },
     user: {
         allSuggestedUsers: [],
